@@ -1,4 +1,8 @@
-A factory usually produce product. A factory may have various facilities that can product different products but they will have a common company name.
+## Definition
+> ### *The factory method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory method lets a class defer instantiation to subclasses.*
+
+
+A factory usually produce product. A factory may have various facilities that can produce different products but they will have a common company name.
 
 Factory pattern is somewhat similar to that concept. When your client code needs different variations of product then you can delegate this task to a factory that will hide the implementation logic.
 
